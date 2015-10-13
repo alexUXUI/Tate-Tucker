@@ -12,7 +12,7 @@
 <!-- FOnts -->
     <link href='http://fonts.googleapis.com/css?family=Radley' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Muli|Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
-<!-- ADOBE font kit -->
+    <!-- ADOBE font kit -->
     <script src="https://use.typekit.net/vhd1hkq.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 <!-- Normailze js libraries -->
@@ -39,19 +39,19 @@
 
     <script>
     $(function(){
-        $("#typed").typed({
-            strings: ["I could be a star ^2000 \nTake you to the moon^2000 \nLook at where we are^2000 \nYou need something new ^2000 \n You can really trust me me ^2000 \n But I know you won't love me ^2000 \n Its alright, I know your type ^2000 \n I've seen that shit since Monday ^2000 \n ^2000 \n ^2000 \n But we be going up on Tuesday ^2000 \n got you feeling right, rolled a spliff wit this loosey ^2000 \n getting too belligerent while sipping on this Dusè ^2000 \n thats why ain't nobody give a fuck what you say ^2000 \n ^2000 \n ^2000 \n and everybody knows ^2000 \nI love <3 from Mars ^2000 \nsee you in your spaceship chasing down stars, ^2000 \nProbably blacked out off them little white bars ^2000 \nBut only after dark baby only after dark  ^2000 \nyou should really know that ^2000 \n^2000 \n ^2000 \n You get thirstier the saltier you get ^2000 \nI just wanna show you places that you never could forget ^2000 \ngot me deep in my emotions and i know it ain't legit ^2000 \n  i was fiending for some loving but i think its time to quit ^2000 \n^2000 \n ^2000 \n I love all these girls,^2000 \nI’m telling you the money isn’t everything  ^2000 \ndon’t be salty girl ^2000 \nyou know I’m never gonna get a wedding ring ^2000 \nacross the world, Across the world,  ^2000 \ngirl you’re so bad, I think i had, to ask myself one thing ^2000 \n^2000 \n ^2000 \n What's wrong with me? ^2000 \n^2000 \n What's wrong wit me ^2000 \n^2000 \n What's wrong wit me ^2000 \n^2000 \n whats wrong with me?" ],
-            typeSpeed: 50,
-            backDelay: 50,
+        $("#typed1").typed({
+      strings: ["I could be a star ^2000 \nTake you to the moon^2000 \nLook at where we are^2000 \nYou need something new ^2000 \n You can really trust me me ^2000 \n But I know you won't love me ^2000 \n Its alright, I know your type ^2000 \n I've seen that shit since Monday ^2000 \n ^2000 \n ^2000 \n But we be going up on Tuesday ^2000 \n got you feeling right, rolled a spliff wit this loosey ^2000 \n getting too belligerent while sipping on this Dusè ^2000 \n thats why ain't nobody give a fuck what you say ^2000 \n ^2000 \n ^2000 \n and everybody knows ^2000 \nI love <3 from Mars ^2000 \nsee you in your spaceship chasing down stars, ^2000 \nProbably blacked out off them little white bars ^2000 \nBut only after dark baby only after dark  ^2000 \nyou should really know that ^2000 \n^2000 \n ^2000 \n You get thirstier the saltier you get ^2000 \nI just wanna show you places that you never could forget ^2000 \ngot me deep in my emotions and i know it ain't legit ^2000 \n  i was fiending for some loving but i think its time to quit ^2000 \n^2000 \n ^2000 \n I love all these girls,^2000 \nI’m telling you the money isn’t everything  ^2000 \ndon’t be salty girl ^2000 \nyou know I’m never gonna get a wedding ring ^2000 \nacross the world, Across the world,  ^2000 \ngirl you’re so bad, I think i had, to ask myself one thing ^2000 \n^2000 \n ^2000 \n What's wrong with me? ^2000 \n^2000 \n What's wrong wit me ^2000 \n^2000 \n What's wrong wit me ^2000 \n^2000 \n whats wrong with me? ^2000 \n^2000 \n ^2000 \n " ],
+            typeSpeed: 30,
+            backDelay: 500,
             loop: false,
             contentType: 'html', // or text
-            http://127.0.0.1:4000/wwwm/2.JPG// defaults to false for infinite loop
+            // defaults to false for infinite loop
             loopCount: false,
             callback: function(){ foo(); },
             resetCallback: function() { newTyped(); }
         });
         $(".reset").click(function(){
-            $("#typed").typed('reset');
+            $("#typed1").typed('reset');
         });
     });
     function newTyped(){ /* A new typed object */ }
@@ -69,14 +69,16 @@
  <li><a href="index.html" style="text-align:center;"><p>Home</p></a></li>
 </ul>
 </div>
-        <h1 style="text-align:center; font-family: "effra";"> What's Wrong? </h1>
+        <h1 style="text-align:center;"> What's Wrong? </h1>
         <div id="player" style=""></div>
-    <script type="text/javascript">    
+<script type="text/javascript">    
     (function() {
         var script = document.createElement("script");
+
         script.type = "text/javascript";
         script.async = true;
         script.src = "http://sd.toneden.io/production/toneden.loader.js"
+
         var entry = document.getElementsByTagName("script")[0];
         entry.parentNode.insertBefore(script, entry);
     }());
@@ -87,6 +89,7 @@
             dom: "#player",
             eq: "waves",
             skin: "light",
+
             tracksPerArtist: 1,
             urls: [
                 "https://soundcloud.com/tatetucker"
@@ -94,7 +97,7 @@
         });
     });
 </script>
-<!-- Container -->
+
 <div id="slidy-container" >
   <figure id="slidy">
   <!-- Allll the images -->
@@ -154,15 +157,19 @@
 </div>
 <script src="cssslidy.js"></script>
 <script>cssSlidy();</script>
-<br />
 
-    <br />
-        <div class="type-wrap" style="margin-left:auto;margin-right:auto;width:1000px;font-size:2em;">
-            <span id="typed" style="white-space:pre;"></span>
-        </div>
 <br />
-<footer style="">
-  <div class="row">
+  <div class="type-wrap" style="margin-left:auto;margin-right:auto;width:1000px;font-size:2em;text-align:center;">
+    <span id="typed1" style="white-space:pre;"></span>
+  </div>
+<br />
+<footer style="text-align:center;">
+
+  <!-- End social links -->
+  <!-- colophon -->
+    <p>Copyright &copy; Tate Tucker 2015</p>
+
+      <div class="row">
    <div class="col-lg-12" style="text-align:center;">
   <!-- SOcial links -->
    <ul id="social" style="">
@@ -172,11 +179,8 @@
       <li><a href="www.instagram.com/yupitstate"><i class="fa fa-instagram"></i><!--Instagram--></a></li>
       <li><a href=""><i class="fa fa-tumblr"></i><!--Tumblr<--></a></li>
       <li><a href=""><i class="fa fa-youtube-play"></i><!--Youtube--></a></li>
+    
     </ul>
-
-  <!-- End social links -->
-  <!-- colophon -->
-    <p>Copyright &copy; Tate Tucker 2015</p>
    </div>
   </div>
  </footer>
