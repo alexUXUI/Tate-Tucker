@@ -38,7 +38,17 @@ setTimeout(
     function()
     {
     $('#social').fadeIn(2000);
-}, 3500);
+}, 4000);
+
+setTimeout(
+
+    function()
+    {
+    $('#colophon').fadeIn(2000);
+}, 4500);
+
+
+
 
 
 ////////////////////////////////////////////////////

@@ -62,8 +62,10 @@ h1 {
   list-style: none;
 }
 
+
+/* ADJUST THESE VALUES FOR THE HERO SPOT HEIGHT */
 #ovalaydiv {
-  height:750px;
+  height:350px;
   width:250px;
   background-color: black;
   position:absolute;
@@ -113,11 +115,11 @@ opacity: 0.1;
 }
 
 */
-
+/* ADJUST THESE VALUES FOR HERO SPOT HEIGHT OTHER DIMENSIONWE LIKED WAS 700px in height */
 .video-thumbnail {
   position:relative;
   margin:0 auto;
-  height:700px;
+  height:350px;
   width: 350px;
   color: black;
  }
@@ -127,6 +129,13 @@ opacity: 0.1;
  
     color:black;
 }
+
+.video-thumbnail:hover>.video-overlay-dark{
+    bottom: 0px;
+ 
+    color:black;
+}
+
  .video-overlay {
      position: absolute;
      background: white;
@@ -148,11 +157,30 @@ opacity: 0.1;
       margin-top: 0;
       padding-left: 10%;
       padding-right: 10%;
-
-
-
  }
 
+ .video-overlay-dark {
+     position: absolute;
+     background: #ececec;
+     top: 0px;
+     left:0px;
+     right:0px;
+     bottom: 100%;
+     overflow: hidden;
+
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .125s ease-in-out;
+      color: black;
+      line-height: 1.4em;
+      font-size: 1.2em;
+
+      margin-top: 0;
+      padding-left: 10%;
+      padding-right: 10%;
+ }
 
 .video-overlay .heroText {
 padding: 10%;
@@ -220,7 +248,7 @@ padding: 10%;
 /****************************************/
 .cineOne {
   background-color: white;
-  height:750px;
+  height:350px;
   padding: 10px;
   font-family: 'Source Code Pro';
 }
@@ -231,13 +259,13 @@ padding: 10%;
 }
 .cineTwo {
   background-color: white;
-  height:750px;
+  height:350px;
   padding: 10px;
   font-family: 'Source Code Pro';
 }
 .cineThree {
   background-color: white;
-  height:750px;
+  height:350px;
   padding: 10px;
   font-family: 'Source Code Pro';
   }
@@ -250,12 +278,12 @@ padding: 10%;
 
 .img-responsive {
 
-    background-color: black;
+    
 }
 
 
 .img-responsive {
-  background-color: #000;
+  background-color: gray;
 
 }
 /*************************************************************************************************/
