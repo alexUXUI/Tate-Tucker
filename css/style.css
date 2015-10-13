@@ -1,0 +1,369 @@
+/* Author: Alex Bennett -- Heyooo :)  */
+
+#player{
+
+}
+
+h1 {
+  font-family: "effra";
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.portfolio-item {
+    height:300px;
+}
+/************************************************/
+/************************ NAVERZZ ***************/
+/**********************************************/
+.navi {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: 'Source Code Pro';
+}
+.navi li {
+    color:blue;
+    list-style: none;
+    display: inline-block;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    font-style: none;
+       font-family: 'Source Code Pro';
+
+}
+.navi a {
+    font-style: none;
+       font-family: 'Source Code Pro';
+}
+/************************************************/
+/************************ SVG's  ***************/
+/**********************************************/
+#layer_1 {
+  height: 35%; 
+  width: 35%; margin: auto; 
+  padding: auto; 
+  margin-left: 25%; 
+  margin-bottom: -15%; 
+  margin-top:-30%;
+}
+#tate_authentic {
+  height:300px;
+  width:100%;
+  margin-bottom:75px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5%;
+  list-style: none;
+}
+
+#ovalaydiv {
+  height:750px;
+  width:250px;
+  background-color: black;
+  position:absolute;
+  right:0px;
+  top:0px;
+  display:none;
+  opacity:0.9;
+}
+
+#tatewrap {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1em;
+  text-align: center;
+  list-style: none;
+}
+#tatewrap li {
+    color:blue;
+    list-style: none;
+    display: inline-block;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    font-style: none;
+      list-style: none;
+}
+
+a:hover {
+ text-decoration: none;
+ color:#a7a7a7;
+}
+/*
+#tate_authentic {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom:10%;
+  width: 100%;
+  height: 300px;
+}
+*/
+/*
+.tate1:hover {
+background: black;
+opacity: 0.1;
+
+}
+
+*/
+
+.video-thumbnail {
+  position:relative;
+  margin:0 auto;
+  height:700px;
+  width: 350px;
+  color: black;
+ }
+
+.video-thumbnail:hover>.video-overlay{
+    bottom: 0px;
+ 
+    color:black;
+}
+ .video-overlay {
+     position: absolute;
+     background: white;
+     top: 0px;
+     left:0px;
+     right:0px;
+     bottom: 100%;
+     overflow: hidden;
+
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .125s ease-in-out;
+      color: black;
+      line-height: 1.4em;
+      font-size: 1.2em;
+
+      margin-top: 0;
+      padding-left: 10%;
+      padding-right: 10%;
+
+
+
+ }
+
+
+.video-overlay .heroText {
+padding: 10%;
+
+}
+
+
+
+/****************************************/
+/*************** FOOOOOTER ************/
+/****************************************/
+#social {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em;
+    text-align: center;
+    color: black;
+    z-index: 9999;
+}
+#social li {
+    color:blue;
+    list-style: none;
+    display: inline-block;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    font-style: none;
+}
+#social ul {
+  display: inline-block;
+  color: black;
+}
+/****************************************/
+/************* ANimated typing ***********/
+/****************************************/
+.type-wrap {
+    margin-left:auto;
+    margin-right:auto;
+    width:1000px;
+    font-size:2em;
+    text-align:center;
+    font-family: 'Source Code Pro';
+    line-height: 2em;
+}
+#typed1 {
+   font-family: 'Source Code Pro';
+}
+/****************************************/
+/********* SLIIIIIIIIIIIDY **************/
+/****************************************/
+#slidy-container { 
+    width: 50%; margin: 0 auto;
+    /*box-shadow: 0 0 12px rgba(0,0,0,0.0); */
+       height:40%;
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+/****************************************/
+/******** Hero Spots 1, 2, and 3 ********/
+/****************************************/
+.cineOne {
+  background-color: white;
+  height:750px;
+  padding: 10px;
+  font-family: 'Source Code Pro';
+}
+
+.cineOne:hover {
+
+
+}
+.cineTwo {
+  background-color: white;
+  height:750px;
+  padding: 10px;
+  font-family: 'Source Code Pro';
+}
+.cineThree {
+  background-color: white;
+  height:750px;
+  padding: 10px;
+  font-family: 'Source Code Pro';
+  }
+.contain {
+  margin:auto;
+  padding:auto;
+  width:96%;
+  font-family: 'Source Code Pro';
+}
+
+.img-responsive {
+
+    background-color: black;
+}
+
+
+.img-responsive {
+  background-color: #000;
+
+}
+/*************************************************************************************************/
+/***************************************** START BOOTSTRAP ***************************************/
+/*************************************************************************************************/
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait)  {
+/********************** Opening bracket **************************/
+/* botstrap animated typing on all pages */
+.type-wrap {
+    margin-left:auto;
+    margin-right:auto;
+    width:300px;
+    font-size:1em;
+    text-align:center;
+    font-family: 'Source Code Pro';
+    line-height: 1.2em;
+  }
+  #typed1 {
+   font-family: 'Source Code Pro';
+  }
+/* bootstrap cssslidy */
+#slidy-container { 
+    box-shadow: 0 0 12px rgba(0,0,0,0.4); 
+    height:40%;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+  /*
+   2. Make SVGs on homepage resonsive */
+.dopesvg {
+  height:100px;
+  width:100%;
+  margin-bottom:75px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20%;
+}
+#tatewrap {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em;
+    text-align: center;
+    list-style: none;
+}
+#tatewrap li {
+    color:blue;
+    list-style: none;
+    display: inline-block;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    font-style: none;
+      list-style: none;
+}
+
+/*
+#tate_authentic {
+  height:100px;
+  width:100%;
+  margin-bottom:75px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5%;
+}
+ /*  
+   3. MAke csssildy responsive XXX
+   4. h1? 
+   5. Make tate tucker responsive XXX
+*/
+.navi {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3em;
+    text-align: center;
+       font-family: 'Source Code Pro';
+       margin-bottom: 30px;
+       margin-top: 30px;
+}
+.navi li {
+    color:blue;
+    list-style: none;
+    display: inline-block;
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: center;
+    font-style: none;
+       font-family: 'Source Code Pro';
+}
+.navi a {
+    font-style: none;
+}
+
+li {
+  list-style: none;
+}
+.video-overlay {
+  display: inline-block;
+}
+
+.navi h1
+
+/*********************** closing bracket **************************/
+}
