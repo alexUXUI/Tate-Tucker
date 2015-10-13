@@ -10,8 +10,22 @@ h1 {
   font-weight: bolder;
 }
 
+h2 {
+  font-family: 'effra';
+  font-weight:900;
+  color: black;
+}
+
+p {
+;
+}
+
 .portfolio-item {
     height:300px;
+}
+
+a {
+  color: black;
 }
 /************************************************/
 /************************ NAVERZZ ***************/
@@ -72,7 +86,6 @@ h1 {
   right:0px;
   top:0px;
   display:none;
-  opacity:0.9;
 }
 
 #tatewrap {
@@ -121,19 +134,20 @@ opacity: 0.1;
   margin:0 auto;
   height:350px;
   width: 350px;
-  color: black;
+  color: gray;
+  background-color: #ececec;
  }
 
 .video-thumbnail:hover>.video-overlay{
     bottom: 0px;
- 
+    background-color: white;
     color:black;
 }
 
 .video-thumbnail:hover>.video-overlay-dark{
     bottom: 0px;
- 
     color:black;
+
 }
 
  .video-overlay {
@@ -246,9 +260,11 @@ padding: 10%;
 /****************************************/
 /******** Hero Spots 1, 2, and 3 ********/
 /****************************************/
+
+/* PLAY WITH THESE VALUES TO ADJUST HEIGHT OF THE HERO SPOTS */
 .cineOne {
   background-color: white;
-  height:350px;
+  height:500px;
   padding: 10px;
   font-family: 'Source Code Pro';
 }
@@ -259,13 +275,13 @@ padding: 10%;
 }
 .cineTwo {
   background-color: white;
-  height:350px;
+  height:500px;
   padding: 10px;
   font-family: 'Source Code Pro';
 }
 .cineThree {
   background-color: white;
-  height:350px;
+  height:500px;
   padding: 10px;
   font-family: 'Source Code Pro';
   }
@@ -307,7 +323,7 @@ padding: 10%;
     font-size:1em;
     text-align:center;
     font-family: 'Source Code Pro';
-    line-height: 1.2em;
+    line-height: 1em;
   }
   #typed1 {
    font-family: 'Source Code Pro';

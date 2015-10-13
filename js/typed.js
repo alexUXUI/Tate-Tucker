@@ -134,7 +134,7 @@
 
             // varying values for setTimeout during typing
             // can't be global since number changes each time loop is executed
-            var humanize = Math.round(Math.random() * (100 - 30)) + this.typeSpeed;
+            var humanize = Math.round(Math.random() * (100 - 5)) + this.typeSpeed;
             var self = this;
 
             // ------------- optional ------------- //
@@ -188,12 +188,12 @@
                 self.timeout = setTimeout(function() {
                     if (curStrPos === curString.length) {
                         // fires callback function
-                        self.options.onStringTyped(self.arrayPos);
+                        //self.options.onStringTyped(self.arrayPos);
 
                         // is this the final string
                         if (self.arrayPos === self.strings.length - 1) {
                             // animation that occurs on the last typed string
-                            self.options.callback();
+                           // self.options.callback();
 
                             self.curLoop++;
 
@@ -248,7 +248,7 @@
 
             // varying values for setTimeout during typing
             // can't be global since number changes each time loop is executed
-            var humanize = Math.round(Math.random() * (100 - 30)) + this.backSpeed;
+            var humanize = Math.round(Math.random() * (40 - 30)) + this.backSpeed;
             var self = this;
 
             self.timeout = setTimeout(function() {
