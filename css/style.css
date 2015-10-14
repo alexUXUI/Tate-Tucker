@@ -5,13 +5,13 @@
 }
 
 h1 {
-  font-family: "effra";
+  font-family: 'Rubik', sans-serif;
   font-style: italic;
   font-weight: bolder;
 }
 
 h2 {
-  font-family: 'effra';
+  font-family: 'Rubik', sans-serif;
   font-weight:900;
   color: black;
 }
@@ -79,7 +79,7 @@ a {
 
 /* ADJUST THESE VALUES FOR THE HERO SPOT HEIGHT */
 #ovalaydiv {
-  height:350px;
+  height:570px;
   width:250px;
   background-color: black;
   position:absolute;
@@ -132,10 +132,10 @@ opacity: 0.1;
 .video-thumbnail {
   position:relative;
   margin:0 auto;
-  height:350px;
+  height:570px;
   width: 350px;
   color: gray;
-  background-color: #ececec;
+  background-color: white;
  }
 
 .video-thumbnail:hover>.video-overlay{
@@ -172,7 +172,7 @@ opacity: 0.1;
       padding-left: 10%;
       padding-right: 10%;
  }
-
+/*
  .video-overlay-dark {
      position: absolute;
      background: #ececec;
@@ -195,7 +195,7 @@ opacity: 0.1;
       padding-left: 10%;
       padding-right: 10%;
  }
-
+*/
 .video-overlay .heroText {
 padding: 10%;
 
@@ -299,7 +299,7 @@ padding: 10%;
 
 
 .img-responsive {
-  background-color: gray;
+  background-color: white;
 
 }
 /*************************************************************************************************/
