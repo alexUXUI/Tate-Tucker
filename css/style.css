@@ -1,51 +1,35 @@
 /* Author: Alex Bennett -- Heyooo :)  */
-
-/************** NORMAILZE SHIIIIET ***********/
+/************** NORMAILZE SHIIIIET GLobal styles***********/
 
 h1 {
-  font-family: 'Rubik', sans-serif;
-  font-style: italic;
-  font-weight: bolder;
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    font-weight: bolder;
 }
-
 h2 {
-  font-family: 'Rubik', sans-serif;
-  font-weight:900;
-  color: black;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    color: black;
 }
-
-p {
-
+p {} a {
+    color: #363636;
 }
-
-a {
-  color: #363636;
-}
-
 a:hover {
- text-decoration: none;
- color:black;
+    text-decoration: none;
+    color: black;
 }
-
 /******** FRONT PAGE **********/
 
 .video-overlay .heroText {
-padding: 1%;
-margin-top:25%;
-letter-spacing: -1px;
-
-
+    padding: 1%;
+    margin-top: 25%;
+    letter-spacing: -1px;
 }
-
 .portfolio-item {
-    height:300px;
+    height: 300px;
 }
-
-
-
-/************************************************/
 /************************ NAVERZZ ***************/
-/**********************************************/
+
 .navi {
     width: 60%;
     margin-left: auto;
@@ -57,108 +41,98 @@ letter-spacing: -1px;
     font-family: 'Source Code Pro';
 }
 .navi li {
-    color:blue;
+    color: blue;
     list-style: none;
     display: inline-block;
     padding-left: 2%;
     padding-right: 2%;
     text-align: center;
     font-style: none;
-       font-family: 'Source Code Pro';
-
+    font-family: 'Source Code Pro';
 }
 .navi a {
     font-style: none;
-       font-family: 'Source Code Pro';
+    font-family: 'Source Code Pro';
 }
-/************************************************/
 /************************ SVG's  ***************/
-/**********************************************/
+
 #layer_1 {
-  height: 35%; 
-  width: 35%; margin: auto; 
-  padding: auto; 
-  margin-left: 25%; 
-  margin-bottom: -15%; 
-  margin-top:-30%;
+    height: 35%;
+    width: 35%;
+    margin: auto;
+    padding: auto;
+    margin-left: 25%;
+    margin-bottom: -15%;
+    margin-top: -30%;
 }
 #tate_authentic {
-  height:300px;
-  width:100%;
-  margin-bottom:75px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 5%;
-  list-style: none;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    list-style: none;
 }
-
-
-/****************************************/
 /******** Hero Spots 1, 2, and 3 ********/
-/****************************************/
-
 /* PLAY WITH THESE VALUES TO ADJUST HEIGHT OF THE HERO SPOTS */
-.cineOne {
-  background-color: white;
-  height:500px;
-  padding: 10px;
-  font-family: 'Source Code Pro';
-}
 
+.cineOne {
+    background-color: white;
+    height: 500px;
+    padding: 10px;
+    font-family: 'Source Code Pro';
+}
 .cineTwo {
-  background-color: white;
-  height:500px;
-  padding: 10px;
-  font-family: 'Source Code Pro';
+    background-color: white;
+    height: 500px;
+    padding: 10px;
+    font-family: 'Source Code Pro';
 }
 .cineThree {
-  background-color: white;
-  height:500px;
-  padding: 10px;
-  font-family: 'Source Code Pro';
-  }
+    background-color: white;
+    height: 500px;
+    padding: 10px;
+    font-family: 'Source Code Pro';
+}
 .contain {
-  margin:auto;
-  padding:auto;
-  width:96%;
-  font-family: 'Source Code Pro';
+    margin: auto;
+    padding: auto;
+    width: 96%;
+    font-family: 'Source Code Pro';
 }
-
 .img-responsive {
-  background-color: white;
-
+    background-color: white;
 }
-
 /* ADJUST THESE VALUES FOR THE HERO SPOT HEIGHT */
-#ovalaydiv {
-  height:570px;
-  width:250px;
-  background-color: black;
-  position:absolute;
-  right:0px;
-  top:0px;
-  display:none;
-}
 
+#ovalaydiv {
+    height: 570px;
+    width: 250px;
+    background-color: black;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    display: none;
+}
 #tatewrap {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 1em;
-  text-align: center;
-  list-style: none;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em;
+    text-align: center;
+    list-style: none;
 }
 #tatewrap li {
-    color:blue;
+    color: blue;
     list-style: none;
     display: inline-block;
     padding-left: 2%;
     padding-right: 2%;
     text-align: center;
     font-style: none;
-      list-style: none;
+    list-style: none;
 }
-
 /*
 #tate_authentic {
   margin-right: auto;
@@ -177,49 +151,44 @@ opacity: 0.1;
 
 */
 /* ADJUST THESE VALUES FOR HERO SPOT HEIGHT OTHER DIMENSIONWE LIKED WAS 700px in height */
-.video-thumbnail {
-  position:relative;
-  margin:0 auto;
-  height:570px;
-  width: 350px;
-  color: gray;
-  background-color: white;
- }
 
-.video-thumbnail:hover>.video-overlay{
+.video-thumbnail {
+    position: relative;
+    margin: 0 auto;
+    height: 570px;
+    width: 350px;
+    color: gray;
+    background-color: white;
+}
+.video-thumbnail:hover>.video-overlay {
     bottom: 0px;
     background-color: white;
-    color:black;
+    color: black;
 }
-
-.video-thumbnail:hover>.video-overlay-dark{
+.video-thumbnail:hover>.video-overlay-dark {
     bottom: 0px;
-    color:black;
-
+    color: black;
 }
-
- .video-overlay {
-     position: absolute;
-     background: white;
-     top: 0px;
-     left:0px;
-     right:0px;
-     bottom: 100%;
-     overflow: hidden;
-
+.video-overlay {
+    position: absolute;
+    background: white;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 100%;
+    overflow: hidden;
     -webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
     -ms-transition: all .1s ease-in-out;
     -o-transition: all .2s ease-in-out;
     transition: all .125s ease-in-out;
-      color: black;
-      line-height: 1.4em;
-      font-size: 1.2em;
-
-      margin-top: 0;
-      padding-left: 10%;
-      padding-right: 10%;
- }
+    color: black;
+    line-height: 1.4em;
+    font-size: 1.2em;
+    margin-top: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 /*
  .video-overlay-dark {
      position: absolute;
@@ -244,13 +213,8 @@ opacity: 0.1;
       padding-right: 10%;
  }
 */
-
-
-
-
-/****************************************/
 /*************** FOOOOOTER ************/
-/****************************************/
+
 #social {
     width: 100%;
     margin-left: auto;
@@ -261,7 +225,7 @@ opacity: 0.1;
     z-index: 9999;
 }
 #social li {
-    color:blue;
+    color: blue;
     list-style: none;
     display: inline-block;
     padding-left: 2%;
@@ -270,160 +234,63 @@ opacity: 0.1;
     font-style: none;
 }
 #social ul {
-  display: inline-block;
-  color: black;
+    display: inline-block;
+    color: black;
 }
-/****************************************/
 /************* ANimated typing ***********/
-/****************************************/
+
 .type-wrap {
-    margin-left:auto;
-    margin-right:auto;
-    width:1000px;
-    font-size:2em;
-    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    font-size: 2em;
+    text-align: center;
     font-family: 'Source Code Pro';
     line-height: 2em;
 }
 #typed1 {
-   font-family: 'Source Code Pro';
-}
-/****************************************/
-/********* SLIIIIIIIIIIIDY **************/
-/****************************************/
-#slidy-container { 
-    width: 50%; margin: 0 auto;
-    /*box-shadow: 0 0 12px rgba(0,0,0,0.0); */
-       height:450px;
-    width:1000px;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-
-/*************************************************************************************************/
-/***************************************** START BOOTSTRAP ***************************************/
-/*************************************************************************************************/
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait)  {
-/********************** Opening bracket **************************/
-/* botstrap animated typing on all pages */
-.type-wrap {
-    margin-left:auto;
-    margin-right:auto;
-    width:300px;
-    font-size:1em;
-    text-align:center;
     font-family: 'Source Code Pro';
-    line-height: 1em;
-  }
-  #typed1 {
-   font-family: 'Source Code Pro';
-  }
-/* bootstrap cssslidy */
-#slidy-container { 
-    box-shadow: 0 0 12px rgba(0,0,0,0.4); 
-    height:40%;
-    width:90%;
-    margin-left:auto;
-    margin-right:auto;
 }
-  /*
-   2. Make SVGs on homepage resonsive */
-.dopesvg {
-  height:100px;
-  width:100%;
-  margin-bottom:75px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 20%;
-}
-#tatewrap {
-    width: 60%;
+/********* SLIIIIIIIIIIIDY **************/
+
+#slidy-container {
+    width: 50%;
+    margin: 0 auto;
+    /*box-shadow: 0 0 12px rgba(0,0,0,0.0); */
+    
+    height: 450px;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 1em;
-    text-align: center;
-    list-style: none;
 }
-#tatewrap li {
-    color:blue;
-    list-style: none;
-    display: inline-block;
-    padding-left: 2%;
-    padding-right: 2%;
-    text-align: center;
-    font-style: none;
-      list-style: none;
+@media screen and (max-width: 1125px) {
+    body {
+        background-color: red;
+    }
 }
+/***** for srunched up desktop browsers ********/
 
-/*
-#tate_authentic {
-  height:100px;
-  width:100%;
-  margin-bottom:75px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 5%;
+@media screen and (max-width: 700px) {
+    body {
+        background-color: blue;
+    }
 }
- /*  
-   3. MAke csssildy responsive XXX
-   4. h1? 
-   5. Make tate tucker responsive XXX
-*/
-.navi {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 3em;
-    text-align: center;
-       font-family: 'Source Code Pro';
-       margin-bottom: 30px;
-       margin-top: 30px;
-}
-.navi li {
-    color:blue;
-    list-style: none;
-    display: inline-block;
-    padding-left: 3%;
-    padding-right: 3%;
-    text-align: center;
-    font-style: none;
-       font-family: 'Source Code Pro';
-}
-.navi a {
-    font-style: none;
-}
+/**** tables and large mobile devices **********/
 
-li {
-  list-style: none;
+@media screen and (max-width: 600px) {
+    body {
+        background-color: green;
+    }
 }
-.video-overlay {
-  display: inline-block;
+/******* mobile ************/
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: purple;
+    }
 }
 
 
-/****** MEIDA QUERIES *********/
-/****** closing bracket ******/
-} /***************************/
-/****************************/
-
-/*********************** MEDIA QUERIES 
-
-make the lyrics bigger
-
-make the home button bigger for mobile
-
-make the home page here spots accessible
-
-unscrunch the text behind the firts hero spot 
 
 
 

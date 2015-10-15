@@ -1,16 +1,17 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Roll</title>
-<!-- Get jQuery -->
+    <!-- Get jQuery -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<!-- Animated typing -->
+    <!-- Animated typing -->
     <script src="js/typed.js" type="text/javascript"></script>
-<!-- Styles -->
+    <!-- Styles -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/3-col-portfolio.css" rel="stylesheet">
-<!-- FOnts -->
+    <!-- FOnts -->
     <link href='http://fonts.googleapis.com/css?family=Radley' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Muli|Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,500' rel='stylesheet' type='text/css'>
@@ -19,163 +20,201 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- ADOBE font kit -->
     <script src="https://use.typekit.net/vhd1hkq.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
-<!-- Normailze js libraries -->
+    <script>
+        try {
+            Typekit.load({
+                async: true
+            });
+        } catch (e) {}
+    </script>
+    <!-- Normailze js libraries -->
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     <script src="js/jquery-1.11.1min.js"></script>
-<!-- Primary app js -->
+    <!-- Primary app js -->
     <script src="js/main.js"></script>
-<!-- Soundcloud hook up -->
+    <!-- Soundcloud hook up -->
     <script src="//connect.soundcloud.com/sdk.js"></script>
-<!-- Animate SVG drawing -->
+    <!-- Animate SVG drawing -->
     <script src="js/jquery.lazylinepainter-1.1.min.js"></script>
     <script src="js/raphael.min.js"></script>
     <script type="text/javascript" src="js/typed.js"></script>
-    
+
     <script>
-    $(function(){
-        $("#typed1").typed({
-      strings: ["I could be a star ^2000 \nTake you to the moon^2000 \nLook at where we are^2000 \nYou need something new ^2000 \n You can really trust me me ^2000 \n But I know you won't love me ^2000 \n Its alright, I know your type ^2000 \n I've seen that shit since Monday ^2000 \n ^2000 \n ^2000 \n But we be going up on Tuesday ^2000 \n got you feeling right, rolled a spliff wit this loosey ^2000 \n getting too belligerent while sipping on this Dusè ^2000 \n thats why ain't nobody give a fuck what you say ^2000 \n ^2000 \n ^2000 \n and everybody knows ^2000 \nI love <3 from Mars ^2000 \nsee you in your spaceship chasing down stars, ^2000 \nProbably blacked out off them little white bars ^2000 \nBut only after dark baby only after dark  ^2000 \nyou should really know that ^2000 \n^2000 \n ^2000 \n You get thirstier the saltier you get ^2000 \nI just wanna show you places that you never could forget ^2000 \ngot me deep in my emotions and i know it ain't legit ^2000 \n  i was fiending for some loving but i think its time to quit ^2000 \n^2000 \n ^2000 \n I love all these girls,^2000 \nI’m telling you the money isn’t everything  ^2000 \ndon’t be salty girl ^2000 \nyou know I’m never gonna get a wedding ring ^2000 \nacross the world, Across the world,  ^2000 \ngirl you’re so bad, I think i had, to ask myself one thing ^2000 \n^2000 \n ^2000 \n What's wrong with me? ^2000 \n^2000 \n What's wrong wit me ^2000 \n^2000 \n What's wrong wit me ^2000 \n^2000 \n whats wrong with me? ^2000 \n^2000 \n ^2000 \n " ],
-            typeSpeed: .001,
-            backDelay: .0001,
-            loop: false,
-            contentType: 'html', // or text
-            // defaults to false for infinite loop
-            loopCount: false,
-            callback: function(){ foo(); },
-            resetCallback: function() { newTyped(); }
+        $(function() {
+            $("#typed1").typed({
+                strings: ["I could be a star ^2000 \nTake you to the moon^2000 \nLook at where we are^2000 \nYou need something new ^2000 \n You can really trust me me ^2000 \n But I know you won't love me ^2000 \n Its alright, I know your type ^2000 \n I've seen that shit since Monday ^2000 \n But we be going up on Tuesday ^2000 \n got you feeling right, rolled a spliff wit this loosey ^2000 \n getting too belligerent while sipping on this Dusè ^2000 \n thats why ain't nobody give a fuck what you say  \n ^2000 \n and everybody knows ^2000 \nI love <3 from Mars ^2000 \nsee you in your spaceship chasing down stars, ^2000 \nProbably blacked out off them little white bars ^2000 \nBut only after dark baby only after dark  ^2000 \nyou should really know that ^2000 \n You get thirstier the saltier you get ^2000 \nI just wanna show you places that you never could forget ^2000 \ngot me deep in my emotions and i know it ain't legit ^2000 \n  i was fiending for some loving but i think its time to quit ^2000 \n I love all these girls,^2000 \nI’m telling you the money isn’t everything  ^2000 \ndon’t be salty girl ^2000 \nyou know I’m never gonna get a wedding ring ^2000 \nacross the world, Across the world,  ^2000 \ngirl you’re so bad, I think i had, to ask myself one thing ^2000 \n^2000 \n ^2000 \n What's wrong with me? ^2000 \n^2000 \n What's wrong wit me ^2000 \n^2000 \n What's wrong wit me ^2000 \n^2000 \n whats wrong with me? ^2000 \n^2000 \n ^2000 \n "],
+                typeSpeed: .001,
+                backDelay: .0001,
+                loop: false,
+                contentType: 'html', // or text
+                // defaults to false for infinite loop
+                loopCount: false,
+                callback: function() {
+                    foo();
+                },
+                resetCallback: function() {
+                    newTyped();
+                }
+            });
+            $(".reset").click(function() {
+                $("#typed1").typed('reset');
+            });
         });
-        $(".reset").click(function(){
-            $("#typed1").typed('reset');
-        });
-    });
-    function newTyped(){ /* A new typed object */ }
-    function foo(){ console.log("Callback"); }
+
+        function newTyped() { /* A new typed object */ }
+
+        function foo() {
+            console.log("Callback");
+        }
     </script>
-<style> 
-</style>
+    <style>
+    </style>
 </head>
+
 <body style="4000px">
-<div id="navwrap" style="width:97%;text-align:center;">
-<ul class="navi">
-<!--<li><a href="queproblema.html" style="text-align:center;"><p>Part I</p></a></li>
+    <div id="navwrap" style="width:97%;text-align:center;">
+        <ul class="navi">
+            <!--<li><a href="queproblema.html" style="text-align:center;"><p>Part I</p></a></li>
 <li><a href="perdoname.html" style="text-align:center;"><p>Part II</p></a></li>
  <li><a href="typer.html" style="text-align:center;"><p>Part III</p></a></li>-->
- <li><a href="index.html" style="text-align:center;"><p>Home</p></a></li>
-</ul>
-</div>
-        <h1 style="text-align:center;"> What's Wrong With Me? </h1>
-        <div id="player" style=""></div>
-<script type="text/javascript">    
-    (function() {
-        var script = document.createElement("script");
+            <li>
+                <a href="index.html" style="text-align:center;">
+                    <p>Home</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <h1 style="text-align:center;"> What's Wrong With Me? </h1>
+    <div id="player" style=""></div>
+    <script type="text/javascript">
+        (function() {
+            var script = document.createElement("script");
 
-        script.type = "text/javascript";
-        script.async = true;
-        script.src = "http://sd.toneden.io/production/toneden.loader.js"
+            script.type = "text/javascript";
+            script.async = true;
+            script.src = "http://sd.toneden.io/production/toneden.loader.js"
 
-        var entry = document.getElementsByTagName("script")[0];
-        entry.parentNode.insertBefore(script, entry);
-    }());
-    ToneDenReady = window.ToneDenReady || [];
-    ToneDenReady.push(function() {
-        // This is where all the action happens:
-        ToneDen.player.create({
-            dom: "#player",
-            eq: "waves",
-            skin: "light",
+            var entry = document.getElementsByTagName("script")[0];
+            entry.parentNode.insertBefore(script, entry);
+        }());
+        ToneDenReady = window.ToneDenReady || [];
+        ToneDenReady.push(function() {
+            // This is where all the action happens:
+            ToneDen.player.create({
+                dom: "#player",
+                eq: "waves",
+                skin: "light",
 
-            tracksPerArtist: 1,
-            urls: [
-                "https://soundcloud.com/tatetucker/01-whats-wrong-with-me-1/s-4DIsu"
-            ]
+                tracksPerArtist: 1,
+                urls: [
+                    "https://soundcloud.com/tatetucker/01-whats-wrong-with-me-1/s-4DIsu"
+                ]
+            });
         });
-    });
-</script>
+    </script>
 
-<div id="slidy-container" >
-  <figure id="slidy">
-  <!-- Allll the images -->
-    <img src="wwwm_lookbook/1.jpg" data-caption="">
-    <img src="wwwm_lookbook/2.jpg" data-caption="">
-    <img src="wwwm_lookbook/3.jpg" data-caption="">
-    <img src="wwwm_lookbook/4.jpg" data-caption="">
-    <img src="wwwm_lookbook/5.jpg" data-caption="">
-    <img src="wwwm_lookbook/6.jpg" data-caption="">
-    <img src="wwwm_lookbook/7.jpg" data-caption="">
-    <img src="wwwm_lookbook/8.jpg" data-caption="">
-    <img src="wwwm_lookbook/9.jpg" data-caption="">
-    <img src="wwwm_lookbook/10.jpg" data-caption="">
-    <img src="wwwm_lookbook/11.jpg" data-caption="">
-    <img src="wwwm_lookbook/12.jpg" data-caption="">
-    <img src="wwwm_lookbook/13.jpg" data-caption="">
-    <img src="wwwm_lookbook/14.jpg" data-caption="">
-    <img src="wwwm_lookbook/15.jpg" data-caption="">
-    <img src="wwwm_lookbook/16.jpg" data-caption="">
-    <img src="wwwm_lookbook/17.jpg" data-caption="">
-    <img src="wwwm_lookbook/18.jpg" data-caption="">
-    <img src="wwwm_lookbook/19.jpg" data-caption="">
-    <img src="wwwm_lookbook/20.jpg" data-caption="">
-    <img src="wwwm_lookbook/21.jpg" data-caption="">
-    <img src="wwwm_lookbook/22.jpg" data-caption="">
-    <img src="wwwm_lookbook/23.jpg" data-caption="">
-    <img src="wwwm_lookbook/24.jpg" data-caption="">
-    <img src="wwwm_lookbook/25.jpg" data-caption="">
-    <img src="wwwm_lookbook/26.jpg" data-caption="">
-    <img src="wwwm_lookbook/27.jpg" data-caption="">
-    <img src="wwwm_lookbook/28.jpg" data-caption="">
-    <img src="wwwm_lookbook/29.jpg" data-caption="">
-    <img src="wwwm_lookbook/30.jpg" data-caption="">
-    <img src="wwwm_lookbook/31.jpg" data-caption="">
-    <img src="wwwm_lookbook/32.jpg" data-caption=""> 
-  </figure>
-</div>
-<script src="cssslidy.js"></script>
-<script>cssSlidy();</script>
+    <div id="slidy-container">
+        <figure id="slidy">
+            <!-- Allll the images -->
+            <img src="wwwm_lookbook/1.jpg" data-caption="">
+            <img src="wwwm_lookbook/2.jpg" data-caption="">
+            <img src="wwwm_lookbook/3.jpg" data-caption="">
+            <img src="wwwm_lookbook/4.jpg" data-caption="">
+            <img src="wwwm_lookbook/5.jpg" data-caption="">
+            <img src="wwwm_lookbook/6.jpg" data-caption="">
+            <img src="wwwm_lookbook/7.jpg" data-caption="">
+            <img src="wwwm_lookbook/8.jpg" data-caption="">
+            <img src="wwwm_lookbook/9.jpg" data-caption="">
+            <img src="wwwm_lookbook/10.jpg" data-caption="">
+            <img src="wwwm_lookbook/11.jpg" data-caption="">
+            <img src="wwwm_lookbook/12.jpg" data-caption="">
+            <img src="wwwm_lookbook/13.jpg" data-caption="">
+            <img src="wwwm_lookbook/14.jpg" data-caption="">
+            <img src="wwwm_lookbook/15.jpg" data-caption="">
+            <img src="wwwm_lookbook/16.jpg" data-caption="">
+            <img src="wwwm_lookbook/17.jpg" data-caption="">
+            <img src="wwwm_lookbook/18.jpg" data-caption="">
+            <img src="wwwm_lookbook/19.jpg" data-caption="">
+            <img src="wwwm_lookbook/20.jpg" data-caption="">
+            <img src="wwwm_lookbook/21.jpg" data-caption="">
+            <img src="wwwm_lookbook/22.jpg" data-caption="">
+            <img src="wwwm_lookbook/23.jpg" data-caption="">
+            <img src="wwwm_lookbook/24.jpg" data-caption="">
+            <img src="wwwm_lookbook/25.jpg" data-caption="">
+            <img src="wwwm_lookbook/26.jpg" data-caption="">
+            <img src="wwwm_lookbook/27.jpg" data-caption="">
+            <img src="wwwm_lookbook/28.jpg" data-caption="">
+            <img src="wwwm_lookbook/29.jpg" data-caption="">
+            <img src="wwwm_lookbook/30.jpg" data-caption="">
+            <img src="wwwm_lookbook/31.jpg" data-caption="">
+            <img src="wwwm_lookbook/32.jpg" data-caption="">
+        </figure>
+    </div>
+    <script src="cssslidy.js"></script>
+    <script>
+        cssSlidy();
+    </script>
 
-<br />
-  <div class="type-wrap" style="margin-left:auto;margin-right:auto;width:480px;font-size:1em;text-align:center;">
-    <span id="typed1" style="white-space:pre;"></span>
-  </div>
-<br />
-  <footer style="">
-  <div class="row">
-   <div class="col-lg-12" style="text-align:center;">
-   <!-- End footer -->
-  <!-- SOcial links -->
-<br />
-  <br />
     <br />
-    <ul id="social" style="display:none;z-index:9999;margin-top:80px;margin-left:-3%;">
-      <li><a href="www.twitter.com/yupitstate"> <i class="fa fa-twitter"></i><!--Twitter--></a> </li>
-        <li><a href="twitter.com/ytatetucker"><i class="fa fa-facebook"></i><!--Facebook--></a></li>
-          <li><a href="www.soundcloud.com/yupitstate"><i class="fa fa-soundcloud"></i><!--Sound CLoud--></a></li>
-              <li><a href="www.instagram.com/yupitstate"><i class="fa fa-instagram"></i><!--Instagram--></a></li>
-                <li><a href=""><i class="fa fa-tumblr"></i><!--Tumblr<--></a></li>
-                  <li><a href=""><i class="fa fa-youtube-play"></i><!--Youtube--></a></li>
-    </ul>
-    <br>
-    <br>
-     <p id="colophon" style="display:none;">Copyright &copy; Tate Tucker 2015</p>
-  <!-- End social links -->
-  <!-- colophon -->
-  <!-- End row -->
- </div>
-  <!-- end column -->
- </div>
-  <!-- end footer -->
- </footer>
+    <div class="type-wrap" style="margin-left:auto;margin-right:auto;width:480px;font-size:1em;text-align:center;">
+        <span id="typed1" style="white-space:pre;"></span>
+    </div>
+    <br />
+    <footer style="">
+        <div class="row">
+            <div class="col-lg-12" style="text-align:center;">
+                <!-- End footer -->
+                <!-- SOcial links -->
+                <br />
+                <br />
+                <br />
+                <ul id="social" style="display:none;z-index:9999;margin-top:80px;margin-left:-3%;">
+                    <li>
+                        <a href="www.twitter.com/yupitstate"> <i class="fa fa-twitter"></i>
+                            <!--Twitter-->
+                        </a>
+                    </li>
+                    <li><a href="twitter.com/ytatetucker"><i class="fa fa-facebook"></i><!--Facebook--></a>
+                    </li>
+                    <li><a href="www.soundcloud.com/yupitstate"><i class="fa fa-soundcloud"></i><!--Sound CLoud--></a>
+                    </li>
+                    <li><a href="www.instagram.com/yupitstate"><i class="fa fa-instagram"></i><!--Instagram--></a>
+                    </li>
+                    <li><a href=""><i class="fa fa-tumblr"></i><!--Tumblr<--></a>
+                    </li>
+                    <li><a href=""><i class="fa fa-youtube-play"></i><!--Youtube--></a>
+                    </li>
+                </ul>
+                <br>
+                <br>
+                <p id="colophon" style="display:none;">Copyright &copy; Tate Tucker 2015</p>
+                <!-- End social links -->
+                <!-- colophon -->
+                <!-- End row -->
+            </div>
+            <!-- end column -->
+        </div>
+        <!-- end footer -->
+    </footer>
 
- <script type="text/javascript" src="js/typed.js"></script>
- 
-<!-- Google Analytics -->
- <script type="text/javascript">
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-67458302-1', 'auto');
-  ga('send', 'pageview');
- </script>
+    <script type="text/javascript" src="js/typed.js"></script>
+
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-67458302-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </body>
+
 </html>

@@ -20,9 +20,6 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-
-
-
 ! function($) {
 
     "use strict";
@@ -384,7 +381,7 @@
     };
 
     $.fn.typed.defaults = {
-        strings: ["T!"],
+        strings: [""],
         // typing speed
         typeSpeed: 0,
         // time before typing starts
