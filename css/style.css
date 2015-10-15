@@ -1,8 +1,6 @@
 /* Author: Alex Bennett -- Heyooo :)  */
 
-#player{
-
-}
+/************** NORMAILZE SHIIIIET ***********/
 
 h1 {
   font-family: 'Rubik', sans-serif;
@@ -17,16 +15,34 @@ h2 {
 }
 
 p {
-;
+
+}
+
+a {
+  color: #363636;
+}
+
+a:hover {
+ text-decoration: none;
+ color:black;
+}
+
+/******** FRONT PAGE **********/
+
+.video-overlay .heroText {
+padding: 1%;
+margin-top:25%;
+letter-spacing: -1px;
+
+
 }
 
 .portfolio-item {
     height:300px;
 }
 
-a {
-  color: black;
-}
+
+
 /************************************************/
 /************************ NAVERZZ ***************/
 /**********************************************/
@@ -77,6 +93,42 @@ a {
 }
 
 
+/****************************************/
+/******** Hero Spots 1, 2, and 3 ********/
+/****************************************/
+
+/* PLAY WITH THESE VALUES TO ADJUST HEIGHT OF THE HERO SPOTS */
+.cineOne {
+  background-color: white;
+  height:500px;
+  padding: 10px;
+  font-family: 'Source Code Pro';
+}
+
+.cineTwo {
+  background-color: white;
+  height:500px;
+  padding: 10px;
+  font-family: 'Source Code Pro';
+}
+.cineThree {
+  background-color: white;
+  height:500px;
+  padding: 10px;
+  font-family: 'Source Code Pro';
+  }
+.contain {
+  margin:auto;
+  padding:auto;
+  width:96%;
+  font-family: 'Source Code Pro';
+}
+
+.img-responsive {
+  background-color: white;
+
+}
+
 /* ADJUST THESE VALUES FOR THE HERO SPOT HEIGHT */
 #ovalaydiv {
   height:570px;
@@ -107,10 +159,6 @@ a {
       list-style: none;
 }
 
-a:hover {
- text-decoration: none;
- color:#a7a7a7;
-}
 /*
 #tate_authentic {
   margin-right: auto;
@@ -196,10 +244,7 @@ opacity: 0.1;
       padding-right: 10%;
  }
 */
-.video-overlay .heroText {
-padding: 10%;
 
-}
 
 
 
@@ -249,59 +294,13 @@ padding: 10%;
 #slidy-container { 
     width: 50%; margin: 0 auto;
     /*box-shadow: 0 0 12px rgba(0,0,0,0.0); */
-       height:40%;
+       height:450px;
     width:1000px;
     margin-left:auto;
     margin-right:auto;
 }
 
 
-
-/****************************************/
-/******** Hero Spots 1, 2, and 3 ********/
-/****************************************/
-
-/* PLAY WITH THESE VALUES TO ADJUST HEIGHT OF THE HERO SPOTS */
-.cineOne {
-  background-color: white;
-  height:500px;
-  padding: 10px;
-  font-family: 'Source Code Pro';
-}
-
-.cineOne:hover {
-
-
-}
-.cineTwo {
-  background-color: white;
-  height:500px;
-  padding: 10px;
-  font-family: 'Source Code Pro';
-}
-.cineThree {
-  background-color: white;
-  height:500px;
-  padding: 10px;
-  font-family: 'Source Code Pro';
-  }
-.contain {
-  margin:auto;
-  padding:auto;
-  width:96%;
-  font-family: 'Source Code Pro';
-}
-
-.img-responsive {
-
-    
-}
-
-
-.img-responsive {
-  background-color: white;
-
-}
 /*************************************************************************************************/
 /***************************************** START BOOTSTRAP ***************************************/
 /*************************************************************************************************/
@@ -410,7 +409,24 @@ li {
   display: inline-block;
 }
 
-.navi h1
 
-/*********************** closing bracket **************************/
-}
+/****** MEIDA QUERIES *********/
+/****** closing bracket ******/
+} /***************************/
+/****************************/
+
+/*********************** MEDIA QUERIES 
+
+make the lyrics bigger
+
+make the home button bigger for mobile
+
+make the home page here spots accessible
+
+unscrunch the text behind the firts hero spot 
+
+
+
+
+
+
