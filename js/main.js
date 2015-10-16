@@ -47,8 +47,15 @@ setTimeout(
     $('#colophon').fadeIn(2000);
 }, 4500);
 
+$("#mobileButton").hide();
 
-
+$(document).ready(function(){
+    if ($(window).width() <= 600){ 
+        $("#mobileButton").show();
+    } else {
+        $("#mobileButton").hide();
+    }
+});
 
 
 ////////////////////////////////////////////////////
