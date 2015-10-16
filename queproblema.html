@@ -39,6 +39,19 @@
     <script src="js/raphael.min.js"></script>
     <script type="text/javascript" src="js/typed.js"></script>
 
+<script>
+  // add a class of 'loading' to the HTML, then remove it once the page has finished loading
+  (function(c){
+    c('scripted loading')
+    window.onload = function(){setTimeout(function(){
+      c(c().replace('loading',''))
+    },30)}
+  }(function(c){
+    var h = document.lastChild
+    return c ? h.className = c : h.className
+  }))
+</script>
+
     <script>
         $(function() {
             $("#typed1").typed({
@@ -67,6 +80,28 @@
             console.log("Callback");
         }
     </script>
+
+    <style>
+  html.loading body {
+    opacity: 0;
+       -moz-transition: opacity 0.3s ease-out;
+         -o-transition: opacity 0.3s ease-out;
+    -webkit-transition: opacity 0.3s ease-out;
+        -ms-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+  }
+  
+  html.loading:after {
+    content: 'Loading...';
+    display: block;
+    line-height: 1em;
+    margin-top: -.5em;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+  }
+</style>
     <style>
     </style>
 </head>
@@ -79,7 +114,7 @@
  <li><a href="typer.html" style="text-align:center;"><p>Part III</p></a></li>-->
             <li>
                 <a href="index.html" style="text-align:center;">
-                    <p>Home</p>
+                    <div class="homeNav">Home</div>
                 </a>
             </li>
         </ul>
@@ -156,46 +191,32 @@
     </script>
 
     <br />
-    <div class="type-wrap" style="margin-left:auto;margin-right:auto;width:480px;font-size:1em;text-align:center;">
+    <div class="type-wrap" style="margin-left:auto;margin-right:auto;width:480px;font-size:2em;text-align:center;">
         <span id="typed1" style="white-space:pre;"></span>
     </div>
     <br />
-    <footer style="">
-        <div class="row">
-            <div class="col-lg-12" style="text-align:center;">
-                <!-- End footer -->
-                <!-- SOcial links -->
-                <br />
-                <br />
-                <br />
-                <ul id="social" style="display:none;z-index:9999;margin-top:80px;margin-left:-3%;">
-                    <li>
-                        <a href="www.twitter.com/yupitstate"> <i class="fa fa-twitter"></i>
-                            <!--Twitter-->
-                        </a>
-                    </li>
-                    <li><a href="twitter.com/ytatetucker"><i class="fa fa-facebook"></i><!--Facebook--></a>
-                    </li>
-                    <li><a href="www.soundcloud.com/yupitstate"><i class="fa fa-soundcloud"></i><!--Sound CLoud--></a>
-                    </li>
-                    <li><a href="www.instagram.com/yupitstate"><i class="fa fa-instagram"></i><!--Instagram--></a>
-                    </li>
-                    <li><a href=""><i class="fa fa-tumblr"></i><!--Tumblr<--></a>
-                    </li>
-                    <li><a href=""><i class="fa fa-youtube-play"></i><!--Youtube--></a>
-                    </li>
-                </ul>
-                <br>
-                <br>
-                <p id="colophon" style="display:none;">Copyright &copy; Tate Tucker 2015</p>
-                <!-- End social links -->
-                <!-- colophon -->
-                <!-- End row -->
-            </div>
-            <!-- end column -->
-        </div>
-        <!-- end footer -->
-    </footer>
+   
+  <footer style="">
+
+<br />
+  <br />
+    <br />
+    <ul id="social" style="display:none;">
+      <li><a href="www.twitter.com/yupitstate"> <i class="fa fa-twitter"></i><!--Twitter--></a> </li>
+        <li><a href="twitter.com/ytatetucker"><i class="fa fa-facebook"></i><!--Facebook--></a></li>
+          <li><a href="www.soundcloud.com/yupitstate"><i class="fa fa-soundcloud"></i><!--Sound CLoud--></a></li>
+              <li><a href="www.instagram.com/yupitstate"><i class="fa fa-instagram"></i><!--Instagram--></a></li>
+                <li><a href=""><i class="fa fa-tumblr"></i><!--Tumblr<--></a></li>
+                  <li><a href=""><i class="fa fa-youtube-play"></i><!--Youtube--></a></li>
+    </ul>
+    <br>
+    <br>
+     <p id="colophon" style="display:none;">Copyright &copy; Tate Tucker 2015</p>
+  <!-- End social links -->
+
+  <!-- end footer -->
+ </footer>
+
 
     <script type="text/javascript" src="js/typed.js"></script>
 
