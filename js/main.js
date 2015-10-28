@@ -14,16 +14,12 @@ function(){}
 ///////////////////////////////////////////////
 // Awesome home page staggered loading behavior
 /////////////////////////////////////////////
-setTimeout(
-  function() 
-  {
-    $( ".cineOne" ).fadeIn(2000);
+setTimeout(function () {
+    $(".cineOne").fadeIn(2000);
   }, 2000);
 
-setTimeout(
-  function() 
-  {
-    $( ".cineTwo" ).fadeIn(3000);
+setTimeout(function () {
+    $(".cineTwo").fadeIn(3000);
   }, 2500);
 
 
