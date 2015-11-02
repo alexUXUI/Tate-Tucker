@@ -42,6 +42,18 @@ ul {
       background-color: pink;
       visibility: hidden;
     }
+
+/******** Song pages **********/
+
+h1.song_title {
+    text-align:center;
+}
+
+#navwrap {
+    width:97%;
+    text-align:center;
+}
+
 /************************ NAVERZZ ***************/
 
 .navi {
@@ -265,7 +277,7 @@ opacity: 0.1;
 .type-wrap {
     margin-left: auto;
     margin-right: auto;
-    width: 1000px;
+    width: 85%;
     font-size: 2em;
     text-align: center;
     font-family: 'Source Code Pro';
@@ -486,11 +498,33 @@ opacity: 0.1;
       font-size: 2em;
       font-family: "SOurce Code Pro";
     }
-
-
-
-
 }
+
+/*************** LOAADDDING ************/
+
+  html.loading body {
+    opacity: 0;
+       -moz-transition: opacity 0.3s ease-out;
+         -o-transition: opacity 0.3s ease-out;
+    -webkit-transition: opacity 0.3s ease-out;
+        -ms-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease-out;
+  }
+  
+  html.loading:after {
+    content: 'Loading...';
+    display: block;
+    line-height: 1em;
+    margin-top: -.5em;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+  }
+
 
 
 
