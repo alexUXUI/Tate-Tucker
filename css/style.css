@@ -37,11 +37,12 @@ ul {
 .portfolio-item {
    
 }
-    .mobileButton {
+
+.mobileButton {
       height: 2em;
       background-color: pink;
       visibility: hidden;
-    }
+}
 
 /******** Song pages **********/
 
