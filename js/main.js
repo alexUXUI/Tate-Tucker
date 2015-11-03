@@ -43,13 +43,12 @@ setTimeout(
     $('#colophon').fadeIn(2000);
 }, 4500);
 
-$("#mobileButton").hide();
 
-$(document).ready(function(){
-    if ($(window).width() <= 600){ 
-        $("#mobileButton").show();
+$(window).resize(function(){
+    if ($(window).width() < 600){ 
+        $(".mobile_button").css("display", "block");
     } else {
-        $("#mobileButton").hide();
+        $(".mobile_button").css("display", "none");
     }
 });
 
@@ -307,7 +306,7 @@ var pathObj = {
     "strokeWidth": 2,
     "strokeColor": "#000"
 }).lazylinepainter('paint'); 
- }); setTimeout();
+ }); 
 
  // Should only do this one time USABILITY
 ////////////////////////////////////////////

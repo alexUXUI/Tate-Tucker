@@ -439,10 +439,16 @@ opacity: 0.1;
       padding-right: 10%;
       */
     }
-    .mobileButton {
-      height: 2em;
-      background-color: pink;
-      display: inline;
+    .mobile_button {
+      width: 100%;
+      background-color: black;
+      color: white;
+      font-size: 1em;
+      height:3em;
+      border: none;
+      margin-left: auto;
+      margin-right: auto;
+        display: none;
     }
     /*************** FOOOOOTER ************/
 
