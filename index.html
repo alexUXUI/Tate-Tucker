@@ -9,11 +9,16 @@
     <meta property="og:image" content="http://yupitstate.com/assets/tate_icon.jpg" />
     <title>Tate Tucker</title>
     <link rel='shortcut icon' href='assets/favicon.ico' type='image/x-icon'/ >
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@YupitsTate" />
+    <meta name="twitter:title" content="Tate Tucker" />
+    <meta name="twitter:description" content="creator. never been a fan of genre." />
+    <meta name="twitter:image" content="http://yupitstate.com/assets/tate_icon.jpg" />
 <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 <!-- Custom CSS -->
     <link href="css/3-col-portfolio.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css?update=110215">
 <!-- Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Radley' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Muli|Maven+Pro:400,500,700,900' rel='stylesheet' type='text/css'>
@@ -24,18 +29,14 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Rubik:700italic|Ubuntu:700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Rubik:700italic' rel='stylesheet' type='text/css'>
-<script src="https://use.typekit.net/vhd1hkq.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
+  
 <!-- Normailze js libraries -->
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    <script src="js/jquery-1.11.1min.js"></script>
 <!-- Primary app js -->
     <script src="js/main.js"></script>
 <!-- Soundcloud hook up -->
     <script src="//connect.soundcloud.com/sdk.js"></script>
 <!-- Animate SVG drawing -->
     <script src="js/jquery.lazylinepainter-1.1.min.js"></script>
-    <script src="js/raphael.min.js"></script>
      <script type="text/javascript" src="js/typed.js"></script>
      <script>
   // add a class of 'loading' to the HTML, then remove it once the page has finished loading
@@ -89,7 +90,7 @@
        &nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:2em;">T</span>he summer sun is fading into autumn’s subdued crispness, but the temptations haven’t vanished as quickly. Stuck between flings and something deeper, there comes a point when you have to ask, “What’s Wrong With <i>Me</i>?” <hr> <span style="font-size:.7em;font-align:center;color:#363636;">Listen to the music <br> see the lookbook <br> read the lyrics</span></a></p></div>
       </div>
   </div>
-  <button id="mobileButton"><a href="queproblema.html" style="color:white;">Enter Part I</a></button>
+  <button class="mobile_button" style="display:none;"><a href="queproblema.html" style="color:white;">Enter Part I</a></button>
 </div>
 
 
@@ -97,11 +98,15 @@
   <!-- END WHATS WRONG BLOCK -->
 
   <!-- PARDON ME BLOCK -->
-  <div class="col-md-4 portfolio-item cineTwo" style="top:-3px; padding:0; display:none;"> 
+  <div class="col-md-4 portfolio-item cineTwo" style="top: 11px; padding:0; display:none;"> 
   <!-- PARDON ME SVG HOLMES --> 
-    <h2 style="font-family: 'Source Code Pro'; font-weight: 400; text-transform: uppercase; font-style: italic;">Pardon Me</h2>
 
-  <br>  <!-- Text hover overlay -->
+    <img src="assets/pardon_me_font.svg"  alt="Pardon Me" style="height: 20%; width: 47%; margin: auto; padding: auto; margin-left: 25%; margin-bottom: -20%; margin-top:-30%;">
+ <br style="height:30px;" />
+  <br>  
+         
+      <div class="image-container">
+      <!-- Text hover overlay -->
     <div class="video-thumbnail">
   <!-- LINK TO SONG PAGE -->
    <img class="img-responsive tate2" src="assets/pardon_me_hero.jpg" style="margin:auto;padding:auto;" alt=""/>
@@ -112,7 +117,8 @@
     <div class="video-overlay"><p class="heroText" style=""><a href="pardonme.html" class="linkText">
        &nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:2em;">T</span>unnel vision. The summer is always clear in hindsight, and only one image remains. <i>Pardon Me</i> for taking so long to notice.” <hr> <span style="font-size:.7em;font-align:center;color:#363636;">Listen to the music <br> see the lookbook <br> read the lyrics</span></a></p></div>
       </div>
-  <button class="mobileButton"><a href="pardonme.html" style="color:white;">Enter Part 2</a></button>
+      </div>
+  <button class="mobile_button" style="display:none;"><a href="pardonme.html" style="color:white;">Enter Part 2</a></button>
  </div>
 <!--
        <span style="font-size:1em;"><a href="perdoname.html">Part II:</span>
@@ -187,7 +193,7 @@
 </div>
 </div>
 <!-- /.container -->
-        <!-- RANDO .JS LIBRARIES -->
+          <!-- RANDO .JS LIBRARIES -->
         <!-- jQuery -->
         <script src="js/jquery.js"></script>
         <!-- Bootstrap Core JavaScript -->
@@ -195,7 +201,6 @@
         <!-- Random javascript libraries --> 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="js/jquery.lazylinepainter-1.1.min.js"></script>
         <script src="js/raphael-min.js"></script>
@@ -203,5 +208,21 @@
         <script src="js/jquery.lazylinepainter-1.1.min.js"></script>
         <script src="js/raphael-min.js"></script>
         <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-67458302-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 </body>
 </html>
